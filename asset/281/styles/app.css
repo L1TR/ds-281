@@ -183,7 +183,7 @@ ul
 
 .shoppingListHeader
 {
-  background-color: #f58220;
+  background-color: #ed342f;
 }
 
 .shoppingListHeader h4
@@ -853,7 +853,7 @@ caption
 
 .varietiesHeader 
 {
-  background-color: #f58220;
+  background-color: #ed342f;
   border-top: 1px solid #000000;
   margin: -5px -5px 5px;
   padding: 0 0 1px;
@@ -1544,7 +1544,7 @@ textarea
 
 .nav-tabs > li > a 
 {
-  background-color: #f58220;
+  background-color: #ed342f;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px 4px 0 0;
   line-height: 1.42857;
