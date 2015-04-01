@@ -1183,7 +1183,7 @@ td.nutr-border
 
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus
 {
-  background-color: rgba(245,130,32,.9);
+  background-color: #ed342f;
   border: none;
 }
 
