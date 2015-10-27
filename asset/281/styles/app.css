@@ -762,7 +762,8 @@ address
   cursor: pointer;
   box-shadow: 10px 8px 6px #37424a;
   margin-left: -18px;
-  width: 535px;
+  max-width: 535px;
+  width: 100%;
 }
 
 /*---------- Text Only/List View ---------*/
@@ -1690,10 +1691,6 @@ textarea
     margin-top: -1px;
   }
 
-  .dropdown-menuList {
-    left: -185px;
-  }
-
   .dropdown-menuSilver > li > a {
     padding: 8px 32px;
   }
@@ -1932,3 +1929,72 @@ textarea
   position: relative;
   top: 4px;
 }
+
+.mySLmenu {
+	position: relative;
+	top: 1px;
+	right: 15px;
+	float: right;
+}
+
+.mainNavigation  > .noPadLeft > .mylist > a {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+	.sortBy-outer {
+		padding-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.mainMenu {
+		max-width: 50%;
+		position: absolute;
+		z-index: 1000;
+		background-color: red;
+	}
+	.noPadLeft {
+		margin-top: 1px;
+	}
+	.noPadLeft .navSilver {
+		border: 6px solid #999999;
+	}
+	.mySLmenu {
+		top: -1px;
+	}
+	.sortBy-outer {
+		padding-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.mySLmenu .dropdown-menu.dropdown-menuList.active {
+		margin-left: -190px;
+	}
+	.noPadLeft {
+		margin-top: 9px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	.cvList {
+		padding-left: 30px;
+	}
+	.searchTools {
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 424px) {
+	.sortBy-outer {
+		padding-top: 20px;
+	}
+}
+
+.gsn-circular-container > div{
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
