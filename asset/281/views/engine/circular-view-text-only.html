@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-5 col-lg-4">
+    <div class="col-md-4">
         <div class="circOptions">
             <a class="btn btn-default btn-defaultSilver" data-ng-href="/circular" title="flyer view" data-ng-class="{ 'active': currentPath == '/circular' }">
                 <i class="fa fa-picture-o"></i>
@@ -15,12 +15,12 @@
             </a>
         </div>
     </div>
-    <div class="col-md-7 col-lg-8 noPadWidth">
+    <div class="col-md-8 noPadWidth searchTools">
         <div data-ng-include="getContentUrl('/views/engine/circular-view-tool.html')"></div>
     </div>
     <div class="sponsor" data-gsn-ad-unit="9"></div>
 </div>
-<div class="list cvList">
+<div class="list">
     <div data-infinite-scroll="loadMore()">
         <div data-ng-repeat-start="item in allItems" data-ng-class="{ '': $index == 0 || allItems[$index-1][sortBy] != item[sortBy] }">
             <div class="row" data-ng-if="$index == 0 || allItems[$index-1][sortBy] != item[sortBy]">
