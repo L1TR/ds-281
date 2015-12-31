@@ -32,13 +32,13 @@
 </div>
 </div>
 <div class="row mainNavigation">
-<div class="col-md-10 col-xs-8 noPadLeft">
+<div class="noPadLeft pull-left">
     <div class="mylist btn-group btn-groupMenu hidden-lg hidden-md">
         <a class="btn btn-default btnSilver pull-left" data-ng-click="gvm.menuInactive = !gvm.menuInactive"><i class="fa fa-bars"></i> Menu</a>
     </div>
-    <div data-ng-include="getContentUrl('/views/menu.html')"></div>
+    <div data-ng-include="getContentUrl('/views/menu.html')" class="mainMenu"></div>
     </div>
-    <div class="col-md-2 col-xs-4">
+    <div class="mySLmenu">
                 <div class="nav navSilver navbar-nav navbar-navSL navbar-right navbar-rightSL">
                     <div class="btn-group btn-groupList">
                         <button type="button" class="btn btn-default btnSilver btnShoppingList" data-ng-click="gvm.shoppingListActive = !gvm.shoppingListActive">
